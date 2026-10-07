@@ -8,6 +8,10 @@ tags:
   - profile
   - user
   - personalization
+aliases:
+  - User Profile
+  - Profile
+  - Me
 ---
 
 # User Profile

@@ -1,0 +1,9 @@
+# Cursor Rules for Golden Second Brain
+
+Always follow the universal multi-agent schema and protocols defined in `AGENTS.md`.
+
+Key rules:
+1. Internal Wiki Content (`wiki/**`, `index.md`, `log.md`): Write strictly in English.
+2. User Conversations: Conduct strictly in Bahasa Indonesia.
+3. Check `wiki/entities/User Profile.md` on first turn; if onboarding is pending, guide the user through onboarding.
+4. On ingest: Process raw files from `inbox/`, extract insights into `wiki/`, move raw files to `archive/YYYY-MM/`, update `index.md` & `log.md`, and commit via git.
