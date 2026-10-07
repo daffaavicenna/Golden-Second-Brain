@@ -1,0 +1,17 @@
+# Obsidian internal state & cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/backups/
+.trash/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Temporary / Agent Scratch files
+*.tmp
+*.temp
+scratch/
