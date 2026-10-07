@@ -20,7 +20,7 @@ Instead of recalculating insights on every prompt, the LLM continuously reads in
 
 ## ✨ Key Features
 
-- **Universal Multi-Agent Ready**: Works seamlessly with **Claude Code**, **OpenAI Codex**, **Google Antigravity**, **OpenCode**, **Cursor**, **Aider**, and custom agents via standardized `AGENTS.md`.
+- **Universal Multi-Agent Ready**: Works seamlessly with **Claude Code**, **OpenAI Codex**, **Google Antigravity**, **Nous Hermes**, **OpenClaw**, **OpenCode**, **Cursor**, **Aider**, **Grok**, and custom bots via standardized `AGENTS.md` & `SYSTEM.md`.
 - **Zero Redundant Processing**: Raw documents staged in `inbox/` are ingested and automatically moved to `archive/YYYY-MM/`.
 - **Bilingual Efficiency Pattern**:
   - **Wiki Storage (100% English)**: Maximum token efficiency (saving 40–60% tokens) and superior semantic density for the AI.
@@ -51,8 +51,11 @@ Golden Second Brain/
 │
 ├── .agents/                # 🤖 Agent skills (obsidian-markdown, obsidian-cli, defuddle, etc.)
 ├── AGENTS.md               # ⚙️ Master multi-agent configuration
+├── SYSTEM.md               # ⚙️ Universal system directive for Hermes, OpenClaw, and tool agents
+├── PROMPTS.md              # 💬 Copy-paste prompts for web chatbots (Grok, ChatGPT, Claude Web)
 ├── CLAUDE.md               # ⚙️ Configuration for Claude Code
 ├── GEMINI.md               # ⚙️ Configuration for Gemini / Antigravity
+├── .cursorrules            # ⚙️ Configuration for Cursor / Windsurf
 └── README.md               # 📘 Documentation
 ```
 
