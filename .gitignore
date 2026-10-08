@@ -15,3 +15,10 @@ $RECYCLE.BIN/
 *.tmp
 *.temp
 scratch/
+
+# Secrets & Environment files
+.env
+.env.*
+*.key
+*.pem
+
